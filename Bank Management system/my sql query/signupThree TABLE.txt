@@ -1,0 +1,11 @@
+Show databases;
+use bankmanagementsystem;
+
+create table signupthree(
+FormNumber varchar(50),
+AccountType varchar(50),
+CardNumber varchar(50),
+PinNumber varchar(50),
+Facility varchar(50)
+);
+select * from signupthree;

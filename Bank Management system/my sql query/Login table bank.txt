@@ -1,0 +1,9 @@
+create database bankmanagementsystem;
+    use bankmanagementsystem ;
+    create table login(
+	FormNumber varchar(50),
+    cardnumber varchar(50),
+    pinnumber varchar(50)
+    );
+    select * from login;
+    insert into login values('1234567891234567','1234');

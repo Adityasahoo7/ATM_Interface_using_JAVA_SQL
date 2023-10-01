@@ -1,0 +1,16 @@
+show databases;
+use bankmanagementsystem;
+create table signuptwo(
+FormNumber varchar(50),
+Religion varchar(50),
+Catagory varchar(50),
+Income varchar(50),
+Qualification varchar(50),
+Occupation varchar(50),
+PanNo varchar(50),
+AdharNo varchar(50),
+ScniorCitizen varchar(50),
+ExtAccount varchar(50)
+
+);
+select * from signuptwo
